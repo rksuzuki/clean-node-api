@@ -7,10 +7,10 @@ module.exports = {
     '!**/protocols/**',
     '!**/test/**'
   ],
-  coverageDirectory: "coverage",
-  coverageProvider: "v8",
-  testEnvironment: "node",
+  coverageDirectory: 'coverage',
+  coverageProvider: 'babel',
+  testEnvironment: 'node',
   transform: {
     '.+\\.ts': 'ts-jest'
-  },
-};
+  }
+}
